@@ -1,0 +1,365 @@
+.cover-bg {
+    background-image: url('coding2.jpg');
+    border-radius: 10px 10px 0 0;
+    background-size: 100% 100%;
+    height:400px;
+}
+#div{
+  height:100px;
+}
+.hover-effect {
+    transition: transform .18s ease-in-out;
+}
+.hover-effect:hover {
+    transform: translateY(-2px);
+}
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+.p-1 {
+    padding: .5rem!important;
+}
+.avatar {
+    max-width: 216px;
+    max-height: 216px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #434a54;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 2rem 2rem;
+}
+.mb-1 {
+    margin-bottom: .5rem!important;
+}
+.h5, h5 {
+    font-size: 1.25rem;
+}
+.btn-success {
+    color: #fff;
+    background-color: #37bc9b;
+    border-color: #37bc9b;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-family: Poppins,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 600;
+    line-height: 1.2;
+}
+.h6, h6 {
+    font-size: 1rem;
+}
+.text-small {
+    font-size: .875rem;
+}
+.text-muted {
+    color: #6c757d!important;
+}
+.mb-2 {
+    margin-bottom: 1rem!important;
+}
+div {
+    display: block;
+}
+.mb-4 {
+    margin-bottom: 3rem!important;
+}
+.h3, h3 {
+    font-size: calc(1.3rem + .6vw);
+}
+.h2, h2 {
+    font-size: calc(1.325rem + .9vw);
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.pb-4 {
+    padding-bottom: 3rem!important;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.timeline{border-left:2px solid #e6e9ed;padding:1rem 0}.timeline-card{position:relative;margin-left:31px;border-left:2px solid;margin-bottom:2rem}.timeline-card:last-child{margin-bottom:1rem}.timeline-card:before{content:'';display:inline-block;position:absolute;background-color:#fff;border-radius:10px;width:12px;height:12px;top:20px;left:-41px;border:2px solid;z-index:2}.timeline-card:after{content:'';display:inline-block;position:absolute;background-color:currentColor;width:29px;height:2px;top:25px;left:-29px;z-index:1}.timeline-card-primary{border-left-color:#4a89dc}.timeline-card-primary:before{border-color:#4a89dc}.timeline-card-primary:after{background-color:#4a89dc;}.timeline-card-success{border-left-color:#37bc9b}.timeline-card-success:before{border-color:#37bc9b}.timeline-card-success:after{background-color:#37bc9b}html{scroll-behavior:smooth}.site-title{font-size:1.25rem;line-height:2.5rem}.nav-link{padding:0;font-size:1.25rem;line-height:2.5rem;color:rgba(0,0,0,.5)}.nav-link:hover,.nav-link:focus,.active .nav-link{color:rgba(0,0,0,.8)}.nav-item+.nav-item{margin-left:1rem}.cover{border-radius:10px}.avatar{max-width:216px;max-height:216px;margin-top:20px;text-align:center;margin-left:auto;margin-right:auto}.avatar img{filter:grayscale(100%)}footer a:not(.nav-link){color:inherit;border-bottom:1px dashed;text-decoration:none;cursor:pointer}@media(min-width:48em){.site-title{float:left}.site-nav{float:right}}
+
+.ringing-bell {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: translate(-50%, -50%);
+}
+
+.faa-ring {
+    color: black;
+}
+
+@-webkit-keyframes ring {
+    0% {
+        -webkit-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
+
+    2% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+
+    4% {
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg);
+    }
+
+    6% {
+        -webkit-transform: rotate(18deg);
+        transform: rotate(18deg);
+    }
+
+    8% {
+        -webkit-transform: rotate(-22deg);
+        transform: rotate(-22deg);
+    }
+
+    10% {
+        -webkit-transform: rotate(22deg);
+        transform: rotate(22deg);
+    }
+
+    12% {
+        -webkit-transform: rotate(-18deg);
+        transform: rotate(-18deg);
+    }
+
+    14% {
+        -webkit-transform: rotate(18deg);
+        transform: rotate(18deg);
+    }
+
+    16% {
+        -webkit-transform: rotate(-12deg);
+        transform: rotate(-12deg);
+    }
+
+    18% {
+        -webkit-transform: rotate(12deg);
+        transform: rotate(12deg);
+    }
+
+    20% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes ring {
+    0% {
+        -webkit-transform: rotate(-15deg);
+        -ms-transform: rotate(-15deg);
+        transform: rotate(-15deg);
+    }
+
+    2% {
+        -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+
+    4% {
+        -webkit-transform: rotate(-18deg);
+        -ms-transform: rotate(-18deg);
+        transform: rotate(-18deg);
+    }
+
+    6% {
+        -webkit-transform: rotate(18deg);
+        -ms-transform: rotate(18deg);
+        transform: rotate(18deg);
+    }
+
+    8% {
+        -webkit-transform: rotate(-22deg);
+        -ms-transform: rotate(-22deg);
+        transform: rotate(-22deg);
+    }
+
+    10% {
+        -webkit-transform: rotate(22deg);
+        -ms-transform: rotate(22deg);
+        transform: rotate(22deg);
+    }
+
+    12% {
+        -webkit-transform: rotate(-18deg);
+        -ms-transform: rotate(-18deg);
+        transform: rotate(-18deg);
+    }
+
+    14% {
+        -webkit-transform: rotate(18deg);
+        -ms-transform: rotate(18deg);
+        transform: rotate(18deg);
+    }
+
+    16% {
+        -webkit-transform: rotate(-12deg);
+        -ms-transform: rotate(-12deg);
+        transform: rotate(-12deg);
+    }
+
+    18% {
+        -webkit-transform: rotate(12deg);
+        -ms-transform: rotate(12deg);
+        transform: rotate(12deg);
+    }
+
+    20% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+
+.faa-ring.animated,
+.faa-ring.animated-hover:hover,
+.faa-parent.animated-hover:hover>.faa-ring {
+    -webkit-animation: ring 2s ease infinite;
+    animation: ring 2s ease infinite;
+    transform-origin-x: 50%;
+    transform-origin-y: 0px;
+}
+.fa-5x {
+    font-size: 1em;
+    margin-left: 5px;
+}
+.ringing-bell {
+    position: inherit;
+    transition: translate(-50%, -50%);
+    top:0%;
+    left:20%;
+}
+.me-1 {
+    margin-right: .5rem!important;
+}
+.mt-1 {
+    margin-top: .5rem!important;
+}
+.btn-light {
+    color: #000;
+    background-color: #e6e9ed;
+    border-color: #e6e9ed;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem 1.5rem;
+    border-radius: 3rem;
+    transition: all .18s ease-in-out;
+}
+.column{
+  margin-top:30px;
+  height:200px;
+  width:250px;
+}
+.images{
+  height:100%;
+  width:100%;
+}
+#h3{
+  margin-left:20px;
+}
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 250px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+/* Style the back side */
+.flip-card-back {
+  background-color: grey;
+  color: white;
+  transform: rotateY(180deg);
+}
+.no_decoration{
+  text-decoration:underline;
+  color: white;
+}
+.center {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  max-width: inherit;
+  margin-top: 50px;
+}
+.margining{
+  margin-top: 30px;
+}
